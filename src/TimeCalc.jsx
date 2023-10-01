@@ -66,10 +66,10 @@ function TimeRow({ id, onChangeHandler }) {
   return <div style={{ margin: '2px' }}>
     Time {id + 1}:
     <input style={{ marginLeft: '5px', marginRight: '5px', width: '50px' }} type="text" id={id} key={id + 'h'}
-        placeholder="hr"
+        placeholder=""
         onChange={(e) => onChangeHandlerHour(e, id)} />
     <input style={{ width: '50px' }} type="text" id={id + 'm'} key={id + 'm'} 
-        placeholder="min"
+        placeholder=""
         onChange={(e) => onChangeHandlerMin(e, id)} />
   </div>
 }
